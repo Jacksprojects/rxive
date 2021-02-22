@@ -12,7 +12,7 @@ menu:
       url: /tags/
 params:
   author: Jack Quarm
-  description: Data blog about about everything R stats.
+  description: Data and Webdev blog about about various topics R, Python, Web and Linux.
   menu_item_separator: ' - '
   social:
     - name: github
