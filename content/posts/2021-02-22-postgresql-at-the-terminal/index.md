@@ -13,9 +13,11 @@ tags:
 
 # Getting started
 
+PostgreSQL is a fantastic DBMS, especially for data analysis and features loads of extensions that you can use that make life a lot easier. Often times data analysis with Python and R focus on reading and writing data from files in CSV or JSON format and SQL is taught as a separate entity, but lets try to bridge the gap and get started working with databases.
+
 ### Logging into POSTGRES in a terminal
 
-First start by switching to user 'postgres'
+After installing linux, switch to the user 'postgres'
 ``` go {linenos=inline}
 su postgres
 ```
@@ -27,18 +29,20 @@ To start off, change the password of this user by running the SQL command:
 ALTER USER postgres WITH PASSWORD 'passwordGoesHere';
 ```
 
-### Basic commands to list contents
-
-First off, if your terminal window isn't wide enough to show all of the results you'd like to see, use this to enable or disable extended view
+Great, you're up and running and now have access to the postgres terminal. If your terminal window isn't wide enough to show all of the results you'd like to see, you can enable or disable the extended view mode by using the following command:
 
 ```go {linenos=inline}
 \x
 ```
 
-If your request returns many results, they'll be shown in a new window, you can exit this window by pressing `q`. You can also exit the postgres terminal using:
+If your request returns many results, they'll be shown in a new window. This new window will have the word (END) at the bottom of the page. Don't worry, you can exit this window by pressing `q`. 
+
+You can also exit the postgres terminal using:
 ```go {linenos=inline}
 \q
 ```
+
+### Basic commands to list contents
 
 To list all available databases:
 ```go {linenos=inline}
