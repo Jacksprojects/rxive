@@ -1,5 +1,5 @@
 baseURL: https://jacksprojects.netlify.app
-title: Jacksprojects Blog
+title: Rxive
 theme: hugo-theme-m10c
 paginate: 5
 menu:
@@ -11,12 +11,11 @@ menu:
       name: Tags
       url: /tags/
 params:
-  author: John Doe
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula
-    turpis sit amet elit pretium.
+  author: Jack Quarm
+  description: Data blog about about everything R stats.
   menu_item_separator: ' - '
   social:
     - name: github
       url: https://github.com/gohugoio
-    - name: twitter
-      url: https://twitter.com/gohugoio
+    - name: linkedin
+      url: https://www.linkedin.com/in/jack-quarm-987b31158/
